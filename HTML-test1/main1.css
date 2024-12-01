@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    border: 2px solid black; 
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    border-right: 2px solid black; 
+}
+
+.left-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.friends-list {
+    text-align: center;
+}
+
+.friends-list p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.small-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.left-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 10px;
+    gap: 10px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.right {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box; 
+    position: relative;
+}
+
+.image-slider {
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 5px;
+}
+
+.main-image {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px; 
+}
+
+.page-number {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.page-number:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.right > .pagination {
+    margin: 0; 
+}

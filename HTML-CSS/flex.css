@@ -1,0 +1,120 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.flex-container {
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: 1rem 0;
+    background-color: grey; 
+    gap: 1rem;
+    min-height: 100vh; 
+    /* min-height: calc(100vh-2rem); */
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.flex-children {
+    padding: 1rem;
+    background-color: red; 
+    border: 1px solid black; 
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: white; 
+}
+
+/* .flex-container{
+    display: flex;
+    gap: 1rem;
+    min-height: 100vh;
+    min-height: calc(100vh-2rem);--------> to reduce length from both sides
+
+    /* 6 */
+    /* justify-content: start; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between;    ------------>equal space between boxes */
+    /* justify-content: end; */
+    /* justify-content: space-evenly; ------------->space is evenly in all */
+    /* justify-content: center; */
+
+    /* justify-content ---start by :default
+    by default--row flex direction
+    align items---- stretch */
+
+
+    /* 4 */
+    /* align-items:start ; */
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: stretch; */
+
+    /* 4 */
+    /* flex-direction: row;               --------left---> :right
+    flex-direction: column;              ---------top---->bottom
+    flex-direction: column-reverse;      -----------down ------> top
+    flex-direction: row-reverse;          ------------right------>left */
+
+    
+
+
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-space-between {
+    justify-content: space-between;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.jc-space-evenly {
+    justify-content: space-evenly;
+}
+
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-stretch {
+    align-items: stretch;
+}
+
+.fd-row {
+    flex-direction: row;
+}
+
+.fd-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.fd-column {
+    flex-direction: column;
+}
+
+.fd-column-reverse {
+    flex-direction: column-reverse;
+}
+

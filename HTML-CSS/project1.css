@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px 2px #ccc;
+    padding: 1rem;
+}
+.profile-image{
+    width: 50px;
+    /* border-radius: 25px; */
+    /* border radius works with the width */
+    border-radius: 50%;
+    /* position: absolute; */
+
+}
+
+.triangle{
+    height: 0;
+    width: 0;
+   left: 50%;
+   /* right: 50%; */
+    border: 10px solid transparent;
+    /* border-bottom-color: yellow; */
+    /* border-right-color:blue ;*/
+    border-top-color:orange; 
+    position: absolute;
+    transform: translate(-50%,0);
+
+    /* transform: translate(0,100%); */
+
+} 
+
+.parent-div{
+    background-color: cyan;
+    position: relative;
+}
+.main{
+
+}

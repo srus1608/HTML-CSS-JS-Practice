@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    flex: 1rem;
+
+}
+
+.left{
+    width: 75%;
+    height: 100vh;
+    margin: auto;
+
+
+}
+.left img{
+    height: 100vh;
+}
+
+.right{
+    width: 25%;
+    flex-direction: column;
+    margin: 0;
+    padding: 2px;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+
+}
+
+.right btn{
+    margin: 2px;
+    padding: 2px;
+
+
+}
